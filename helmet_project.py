@@ -24,7 +24,7 @@ elif add_selectbox == "Jakarta - Bendungan Hilir 3":
 elif add_selectbox == "Medan - Ismud Gajah Mada":
     STREAM_URL = "https://atcsdishub.pemkomedan.go.id/camera/ISMUDGAJAHMADA.m3u8"
 
-st.title("Live CCTV Stream with YOLO Detection")
+st.title("Deteksi Pengguna Helm dengan YOLOV8 dan CLAHE pada ETLE")
 
 # Create a video container
 frame_placeholder = st.empty()
