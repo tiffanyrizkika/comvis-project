@@ -4,13 +4,13 @@ from ultralytics import YOLO
 from PIL import Image
 import numpy as np
 
-@st.cache
+@st.cache_resource
 def load_model()
     return YOLO("best.pt")
 
 # Load your YOLO model
 # model = YOLO("best.pt")  # or "yolov8n.pt" if testing
-  model = load_model()
+model = load_model()
 
 # Using object notation
 
